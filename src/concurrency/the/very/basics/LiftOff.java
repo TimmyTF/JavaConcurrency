@@ -1,4 +1,4 @@
-package concurrency;
+package concurrency.the.very.basics;
 
 /**
  * Created by tflomin on 26.08.2014.
