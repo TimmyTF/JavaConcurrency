@@ -11,14 +11,14 @@ import java.util.concurrent.atomic.AtomicInteger;
  *
  */
 public class AtomicIntegerTest implements Runnable {
-    private AtomicInteger i = new AtomicInteger(0);
+    private AtomicInteger atomicInt = new AtomicInteger(0);
 
     public int getValue() {
-        return i.get();
+        return atomicInt.get();
     }
 
     private void evenIncrement() {
-        i.addAndGet(2);
+        atomicInt.addAndGet(2);
     }
 
     public void run() {
